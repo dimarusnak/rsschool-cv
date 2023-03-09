@@ -4,7 +4,7 @@
 
 ## Contact information: ##
 
-### Phone: [+7(952)345-28-20](https://tel:+79523452820) ###
+### Phone: [+7(952)345-28-20](tel:+79523452820) ###
 
 ### E-mail: creatorviewer@gmail.com ###
 
