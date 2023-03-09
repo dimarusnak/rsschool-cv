@@ -1,2 +1,2 @@
-##[rsschool-cv](https://app.rs.school/)##
-#Dmitry Rusnak#
+## [rsschool-cv](https://app.rs.school/) ##
+# Dmitry Rusnak #
