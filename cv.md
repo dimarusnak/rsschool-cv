@@ -6,6 +6,6 @@
 
 ### Phone: +7(952)345-28-20 ###
 
-### E-mail: [creatorviewer@gmail.com] (mailto:creatorviewer@gmail.com) ###
+### E-mail: creatorviewer@gmail.com ###
 
 ### Telegram: ###
