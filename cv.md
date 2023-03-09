@@ -30,7 +30,7 @@ I have nothing more to say. I'm a learner, soon I will update this page.
 
 ## Code Examples ##
 
-
+### Guess a Number game ###
 ```
 const enterButton = document.getElementById('enterButton');
 const againButton = document.getElementById('againButton');
