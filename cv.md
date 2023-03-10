@@ -194,5 +194,5 @@ console.log(KateString);
 ### Experience ###
 
 
-All my experience as developer is doing homework code, now i have no projects to show. In my daily life Im working as a manager at IT company,
+All my experience as developer is doing homework code, now I have no projects to show. In my daily life I'm working as a manager at IT company,
 where we developing websites and promoting them in search engines. 
