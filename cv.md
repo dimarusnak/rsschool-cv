@@ -202,3 +202,8 @@ where we developing websites and promoting them in search engines.
 
 * Graduate School of Engineering EG
     + Specialization: oil and gas equipment and technologies
+
+## Languages ##
+
+* Russian - native speaker
+* English - 
