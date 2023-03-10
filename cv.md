@@ -71,36 +71,36 @@ againButton.addEventListener('click', function() {
 ### My old homeworks ###
 
 ```
-// Замыкание. Пример 1
-console.log('Результаты примера 1:');
+// Closures. Example 1.
+console.log('Result of Example №1:');
 let a = 10;
 
 function counter() {
-    let a = 0; /* Есть область видимости, где используется переменная из функции, а не из глобальной области видимости */
-    return function () {  /* Анонимная функция, так как её область видимости замкнута внутри другой функции */
+    let a = 0; /* There is a scope where a variable from a function is used, and not from the global scope */
+    return function () {  /* Anonymous function because its scope is closed inside another function */
         a++;
         console.log(`Счётчик равен: ${a}`);
     };
 }
 
-let b = counter(); /* Каждая переменная создаёт отдельный блок области видимости */
+let b = counter(); /* Each variable creates a separate scope block */
 let c = counter();
 b();
 b();
 c();
 b();
 
-// Замыкание. Пример 2. Для этого создал ещё один JS файл.
-(function () { /* Делаем анонимную функцию, чтобы не засорять названиями глобальную область видимости */
+// Closures. Example 2. To do this, I created another JS file.
+(function () { /* We make an anonymous function so as not to litter the global scope with names */
     let p = 24;
     let a = document.querySelector('.button-1');
     a.onclick = () => {
         p *= 3;
-        console.log(`P из первой кнопки равен: ${p}`);
+        console.log(`P from first button is equal to: ${p}`);
     }
 })();
 
-// Замыкание. Пример 3.
+// Closures. Example 3.
 
 function randomInteger (min, max) {
     let rand = min - 0.5 + Math.random() * (max - min + 1);
@@ -109,10 +109,10 @@ function randomInteger (min, max) {
 
 
 function someFun () {
- let someNumber = 10; /* Замыкание заключается в том, что внутри функции находится переменная, как и в первом примере  */
+ let someNumber = 10; /* The closure is that inside the function there is a variable, as in the first example  */
   return function randomSum () {
-    someNumber += randomInteger(0, 100); /* randomInteger не определена, нужно прописать для неё функцию*/
-    console.log(`Результат рандомной суммы: ${someNumber}`);
+    someNumber += randomInteger(0, 100); /* randomInteger is not defined, you need to write a function for it*/
+    console.log(`Random sum result: ${someNumber}`);
     if (someNumber > 320) return;
     randomSum ();
  }
@@ -126,22 +126,22 @@ k();
 k();
 k();
 /* -------------------------------------------------------------------------- 
-Примеры использования методов массивов: map, filter, reduce */
+Examples of using array methods: map, filter, reduce */
 
 /* Map */
-let userNumber = +prompt('Введите число',0);
+let userNumber = +prompt('Enter the number',0);
 
 let intoArray = String(userNumber).split('').map((userNumber) => {
     return Number(userNumber);
 })
 
-console.log(`Держите ваш массив: ${intoArray}`)
+console.log(`Take your array: ${intoArray}`)
 
 /* Filter */
 
 let filterResult = intoArray.filter(x => x > 5);
 
-console.log(`Числа больше пяти: ${filterResult}`);
+console.log(`Numbers greater than five: ${filterResult}`);
 
 /* Reduce */
 
@@ -149,10 +149,10 @@ let total = intoArray.reduce(function (a,b) {
     return a + b;
 });
 
-console.log (`Сумма всех значений в массиве: ${total}`);
+console.log (`Sum of all values ​​in an array: ${total}`);
 
 /* ----------------------------------------------------------------------------------
-Вывести все ключи Объекта в виде массива */
+Output all keys of an Object as an array */
 
 let someGuy = {
     name: 'Alex',
@@ -164,7 +164,7 @@ let someGuy = {
 let propertyNames = Object.keys(someGuy);
 console.log(propertyNames);
 /* ------------------------------------------------------------------------------------
-Сделать функцию и использовать параметры по умолчанию */
+Create function and using it as deafult */
 
 function Human (name, age, sex, profession) {
     this.name = name;
@@ -182,7 +182,7 @@ console.log(Andrew);
 let Kate = new Human ('Kate', 28, 'female', 'cooker');
 console.log(Kate);
 /* ------------------------------------------------------------------------------------------
-Создать  экземпляры каждого класса и превратить в JSON */
+Create instances of each class and turn into JSON */
 let MichealString = JSON.stringify(Michael);
 console.log(MichealString);
 let AndrewString = JSON.stringify(Andrew);
