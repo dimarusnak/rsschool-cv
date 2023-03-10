@@ -201,4 +201,4 @@ where we developing websites and promoting them in search engines.
 ## Education ##
 
 * Graduate School of Engineering EG
- * Specialization: oil and gas equipment and technologies
+ + Specialization: oil and gas equipment and technologies
