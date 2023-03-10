@@ -196,3 +196,9 @@ console.log(KateString);
 
 All my experience as developer is doing homework code, now I have no projects to show. In my daily life I'm working as a manager at IT company,
 where we developing websites and promoting them in search engines. 
+
+
+## Education ##
+
+* Graduate School of Engineering EG
+ ** Specialization: oil and gas equipment and technologies
