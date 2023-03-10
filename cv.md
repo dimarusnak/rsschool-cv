@@ -205,5 +205,6 @@ where we developing websites and promoting them in search engines.
 
 ## Languages ##
 
-* Russian - native speaker
-* English - 
+* Russian ( native speaker )
+* English ( I think that test can not to show a real level of using language. Got a little experience with speaking native-speakers, such as Mormons.
+Wathcing YOUTUBE a lot, trying using english in every aspect of input information in my life (TV Series, books etc) ). 
