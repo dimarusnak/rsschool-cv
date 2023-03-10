@@ -1,4 +1,4 @@
-## [rsschool-cv](https://app.rs.school/) ##
+<!-- ## [rsschool-cv](https://app.rs.school/) ## -->
 # Dmitry Rusnak #
 
 
