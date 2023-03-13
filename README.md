@@ -1,1 +1,0 @@
-https://dimarusnak.github.io/rsschool-cv/cv
