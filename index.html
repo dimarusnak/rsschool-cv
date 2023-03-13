@@ -52,14 +52,14 @@
                         output.innerHTML = `You guessed right, it was ${randomNumber}`;
                         output.style.color = "yellow";
                     }
-                    else if (input > randomNumber && input <= 100) {
+                    else if (input > randomNumber && input &lt;= 100) {
                         output.innerHTML = `You guessed too high`;
                     }
                 
-                    else if (input < randomNumber && input >= 1) {
+                    else if (input &lt; randomNumber && input >= 1) {
                         output.innerHTML = `You guessed too low`;
                     }
-                    else if (input < 1) {
+                    else if (input &lt; 1) {
                         output.innerHTML = `Higher, it has to be between 1 and 100`;
                     } 
                     else if (isNaN(input)) {
